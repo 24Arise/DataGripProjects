@@ -20,7 +20,10 @@
       <driver-ref>mysql_aurora</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mariadb://172.23.40.32:31000</jdbc-url>
+      <jdbc-url>jdbc:mariadb://172.23.40.32:31000/hfins</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="APPROVED_DRIVER" value="mysql_aurora" />
+      </jdbc-additional-properties>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
     <data-source source="LOCAL" name="H1-融合测试「18」" uuid="d1c07957-3f25-4aff-b7b3-6cfdc50ca96c">
@@ -68,6 +71,9 @@
       <synchronize>true</synchronize>
       <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mariadb://172.23.40.6:31000</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="APPROVED_DRIVER" value="mysql_aurora" />
+      </jdbc-additional-properties>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
     <data-source source="LOCAL" name="H1-内测环境「206」" uuid="af5ebc6d-d1ff-4f74-bfab-07fbd4c39646">
@@ -78,6 +84,14 @@
       <jdbc-additional-properties>
         <property name="APPROVED_DRIVER" value="mysql_aurora" />
       </jdbc-additional-properties>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="H1-融合测试-验证.O「200」" uuid="e84de8a5-c184-4213-b1c1-ea660ee217cb">
+      <driver-ref>oracle.19</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@//172.23.16.200:1521/HONEPDB</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>
