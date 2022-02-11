@@ -94,5 +94,35 @@
       <jdbc-url>jdbc:oracle:thin:@//172.23.16.200:1521/HONEPDB</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="H1-内测环境「229」" uuid="f0e98639-0b90-4ed9-9ad6-3601072ef528">
+      <driver-ref>mysql_aurora</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mariadb://10.211.22.229:3306/</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="APPROVED_DRIVER" value="mysql_aurora" />
+      </jdbc-additional-properties>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="H1-压测环境「130」" uuid="54b1b4fa-0c82-4099-aeed-b9e91f94ee53">
+      <driver-ref>mysql_aurora</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mariadb://172.23.16.130:3306</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="APPROVED_DRIVER" value="mysql_aurora" />
+      </jdbc-additional-properties>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="H1-用户大会环境「81」" uuid="b656f84d-c33d-4111-9c18-6da4b1767149">
+      <driver-ref>mysql_aurora</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mariadb://172.22.3.81:3306</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="APPROVED_DRIVER" value="mysql_aurora" />
+      </jdbc-additional-properties>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>
