@@ -94,11 +94,11 @@
       <jdbc-url>jdbc:oracle:thin:@//172.23.16.200:1521/HONEPDB</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="H1-内测环境「229」" uuid="f0e98639-0b90-4ed9-9ad6-3601072ef528">
+    <data-source source="LOCAL" name="H1-内测环境「22」" uuid="f0e98639-0b90-4ed9-9ad6-3601072ef528">
       <driver-ref>mysql_aurora</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mariadb://10.211.22.229:3306/</jdbc-url>
+      <jdbc-url>jdbc:mariadb://172.31.218.22:3306/</jdbc-url>
       <jdbc-additional-properties>
         <property name="APPROVED_DRIVER" value="mysql_aurora" />
       </jdbc-additional-properties>
@@ -122,6 +122,34 @@
       <jdbc-additional-properties>
         <property name="APPROVED_DRIVER" value="mysql_aurora" />
       </jdbc-additional-properties>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="H1-融合开发「129」" uuid="34449527-0589-4d12-82d0-4c6d72a7b776">
+      <driver-ref>mysql_aurora</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mariadb://172.23.16.129:3306/hfins</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="APPROVED_DRIVER" value="mysql_aurora" />
+      </jdbc-additional-properties>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="H1-产研环境「30」" uuid="2d774b36-37ec-46c3-9d2e-f4cd99b98070">
+      <driver-ref>mysql_aurora</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mariadb://172.31.218.30:3306/</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="APPROVED_DRIVER" value="mysql_aurora" />
+      </jdbc-additional-properties>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="HEC-展厅" uuid="72609559-0d3a-411e-9c34-6a5f98f1fbfb">
+      <driver-ref>oracle.19</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@192.168.16.237:1521:orcl</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>
