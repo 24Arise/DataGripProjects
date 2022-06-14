@@ -54,6 +54,7 @@
       <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mariadb://172.23.16.184:3306/hfins</jdbc-url>
       <jdbc-additional-properties>
+        <property name="EXTERNAL_DATA_PATH" value="$PROJECT_DIR$/bgt-01.xml" />
         <property name="APPROVED_DRIVER" value="mysql_aurora" />
       </jdbc-additional-properties>
       <working-dir>$ProjectFileDir$</working-dir>
@@ -98,7 +99,7 @@
       <driver-ref>mysql_aurora</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mariadb://172.31.218.22:3306/</jdbc-url>
+      <jdbc-url>jdbc:mariadb://172.31.218.22:3306/hfins</jdbc-url>
       <jdbc-additional-properties>
         <property name="APPROVED_DRIVER" value="mysql_aurora" />
       </jdbc-additional-properties>
@@ -150,6 +151,48 @@
       <auto-commit>false</auto-commit>
       <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
       <jdbc-url>jdbc:oracle:thin:@192.168.16.237:1521:orcl</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="H1-演示环境 -验证「140」" uuid="a9ff3f6f-4817-4972-a551-aedfdeea6f61">
+      <driver-ref>mysql_aurora</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mariadb://172.23.16.140:23306/hfins</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="EXTERNAL_DATA_PATH" value="$PROJECT_DIR$/bgt-01.xml" />
+        <property name="APPROVED_DRIVER" value="mysql_aurora" />
+      </jdbc-additional-properties>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="H1-压测环境「55」" uuid="892352c4-468c-4906-816d-48236722710a">
+      <driver-ref>mysql_aurora</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mariadb://192.168.11.55:3306/hfins</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="APPROVED_DRIVER" value="mysql_aurora" />
+      </jdbc-additional-properties>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="H1-演示环境「111」" uuid="109adaa4-e742-459f-9ebc-d61db0124ea3">
+      <driver-ref>mysql_aurora</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mariadb://172.23.40.111:31000</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="APPROVED_DRIVER" value="mysql_aurora" />
+      </jdbc-additional-properties>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="H1-产研开发「19」" uuid="ececded3-03bf-4774-ba0e-e1f9e04e5ad7">
+      <driver-ref>mysql_aurora</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mariadb://172.31.218.19:3306/</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="EXTERNAL_DATA_PATH" value="$PROJECT_DIR$/bgt-01.xml" />
+        <property name="APPROVED_DRIVER" value="mysql_aurora" />
+      </jdbc-additional-properties>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>
