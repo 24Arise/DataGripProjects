@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+  <table-set>
+    <table path="hfins.bgt_ctrl_strategy_mp_cond">
+      <table path="hfins.bgt_control_strategy" from="CONTROL_STRATEGY_ID" to="CONTROL_STRATEGY_ID"/>
+    </table>
+    <table path="hfins.bgt_control_strategy">
+      <table path="hfins.bgt_control_strategy_group" from="CONTROL_STRATEGY_GROUP_ID" to="CONTROL_STRATEGY_GROUP_ID"/>
+    </table>
+    <table path="hfins.bgt_control_strategy_group">
+      <table path="hfins.bgt_control_rule" from="CONTROL_STRATEGY_GROUP_ID" to="BUDGET_STRATEGY_GROUP_ID"/>
+    </table>
+    <table path="hfins.bgt_control_rule_detail">
+      <table path="hfins.bgt_control_rule" from="CONTROL_RULE_ID" to="CONTROL_RULE_ID"/>
+    </table>
+    <table path="hfins.exp_report_header">
+      <table path="hfins.exp_report_line" from="EXP_REPORT_HEADER_ID" to="EXP_REPORT_HEADER_ID"/>
+    </table>
+  </table-set>
+</data>

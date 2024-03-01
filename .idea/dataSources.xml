@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="Docker" uuid="ef831ce3-8b3d-41a1-bd1e-9d5513d74ae4">
+    <data-source source="LOCAL" name="L-Docker" uuid="ef831ce3-8b3d-41a1-bd1e-9d5513d74ae4">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://127.0.0.1:3306</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="H1-融合测试「18」" uuid="e58d0741-87bf-4d33-8d7d-2c5cf36a0425">
+    <data-source source="LOCAL" name="R-融合测试「18」" uuid="e58d0741-87bf-4d33-8d7d-2c5cf36a0425">
       <driver-ref>oracle.19</driver-ref>
       <synchronize>true</synchronize>
       <auto-commit>false</auto-commit>
@@ -16,7 +16,7 @@
       <jdbc-url>jdbc:oracle:thin:@//172.23.16.18:31521/HONEPDB</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="H1-培训环境「32」" uuid="dada4e37-5d33-4e10-ac80-db603d04c27e">
+    <data-source source="LOCAL" name="R-培训环境「32」" uuid="dada4e37-5d33-4e10-ac80-db603d04c27e">
       <driver-ref>mysql_aurora</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
@@ -26,14 +26,14 @@
       </jdbc-additional-properties>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="H1-融合测试「18」" uuid="d1c07957-3f25-4aff-b7b3-6cfdc50ca96c">
+    <data-source source="LOCAL" name="R-融合测试「18」" uuid="d1c07957-3f25-4aff-b7b3-6cfdc50ca96c">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://172.23.16.18:31000</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="H1-融合开发「132」" uuid="d6fb71c9-403d-411d-b522-ca8f994f11b2">
+    <data-source source="LOCAL" name="R-融合开发「132」" uuid="d6fb71c9-403d-411d-b522-ca8f994f11b2">
       <driver-ref>oracle.19</driver-ref>
       <synchronize>true</synchronize>
       <auto-commit>false</auto-commit>
@@ -41,14 +41,14 @@
       <jdbc-url>jdbc:oracle:thin:@//172.23.16.132:1521/HONEPDB</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="H1-融合开发「132」" uuid="906768c1-c205-4a93-9eb7-f2fdd92ba1cb">
+    <data-source source="LOCAL" name="R-融合开发「132」" uuid="906768c1-c205-4a93-9eb7-f2fdd92ba1cb">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://172.23.16.132:3306</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="H1-融合开发「184」" uuid="d56a4afa-becf-4873-b508-d5977bd0c923">
+    <data-source source="LOCAL" name="R-融合开发「184」" uuid="d56a4afa-becf-4873-b508-d5977bd0c923">
       <driver-ref>mysql_aurora</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
@@ -59,7 +59,7 @@
       </jdbc-additional-properties>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="H1-融合开发「184」" uuid="f63b84c0-78a7-4cd6-a618-f2110e65c127">
+    <data-source source="LOCAL" name="R-融合开发「184」" uuid="f63b84c0-78a7-4cd6-a618-f2110e65c127">
       <driver-ref>oracle.19</driver-ref>
       <synchronize>true</synchronize>
       <auto-commit>false</auto-commit>
@@ -67,7 +67,7 @@
       <jdbc-url>jdbc:oracle:thin:@//172.23.16.184:1521/HONEPDB</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="H1-演示环境「6」" uuid="89e294ba-f4ae-45ad-b5bd-2e02d3c22e03">
+    <data-source source="LOCAL" name="R-演示环境「6」" uuid="89e294ba-f4ae-45ad-b5bd-2e02d3c22e03">
       <driver-ref>mysql_aurora</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
@@ -77,7 +77,7 @@
       </jdbc-additional-properties>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="H1-内测环境「206」" uuid="af5ebc6d-d1ff-4f74-bfab-07fbd4c39646">
+    <data-source source="LOCAL" name="R-内测环境「206」" uuid="af5ebc6d-d1ff-4f74-bfab-07fbd4c39646">
       <driver-ref>mysql_aurora</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
@@ -87,7 +87,7 @@
       </jdbc-additional-properties>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="H1-融合测试-验证「200」" uuid="e84de8a5-c184-4213-b1c1-ea660ee217cb">
+    <data-source source="LOCAL" name="R-融合测试-验证「200」" uuid="e84de8a5-c184-4213-b1c1-ea660ee217cb">
       <driver-ref>oracle.19</driver-ref>
       <synchronize>true</synchronize>
       <auto-commit>false</auto-commit>
@@ -95,7 +95,7 @@
       <jdbc-url>jdbc:oracle:thin:@//172.23.16.200:1521/HONEPDB</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="H1-产研验证「20」" uuid="f0e98639-0b90-4ed9-9ad6-3601072ef528">
+    <data-source source="LOCAL" name="R-产研验证「20」" uuid="f0e98639-0b90-4ed9-9ad6-3601072ef528">
       <driver-ref>mysql_aurora</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
@@ -105,7 +105,7 @@
       </jdbc-additional-properties>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="H1-压测环境「130」" uuid="54b1b4fa-0c82-4099-aeed-b9e91f94ee53">
+    <data-source source="LOCAL" name="R-压测环境「130」" uuid="54b1b4fa-0c82-4099-aeed-b9e91f94ee53">
       <driver-ref>mysql_aurora</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
@@ -115,7 +115,7 @@
       </jdbc-additional-properties>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="H1-用户大会环境「81」" uuid="b656f84d-c33d-4111-9c18-6da4b1767149">
+    <data-source source="LOCAL" name="R-用户大会环境「81」" uuid="b656f84d-c33d-4111-9c18-6da4b1767149">
       <driver-ref>mysql_aurora</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
@@ -125,7 +125,7 @@
       </jdbc-additional-properties>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="H1-融合开发「129」" uuid="34449527-0589-4d12-82d0-4c6d72a7b776">
+    <data-source source="LOCAL" name="R-融合开发「129」" uuid="34449527-0589-4d12-82d0-4c6d72a7b776">
       <driver-ref>mysql_aurora</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
@@ -135,7 +135,7 @@
       </jdbc-additional-properties>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="H1-产研环境「30」" uuid="2d774b36-37ec-46c3-9d2e-f4cd99b98070">
+    <data-source source="LOCAL" name="R-产研环境「30」" uuid="2d774b36-37ec-46c3-9d2e-f4cd99b98070">
       <driver-ref>mysql_aurora</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
@@ -145,7 +145,7 @@
       </jdbc-additional-properties>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="HEC-展厅" uuid="72609559-0d3a-411e-9c34-6a5f98f1fbfb">
+    <data-source source="LOCAL" name="H-展厅" uuid="72609559-0d3a-411e-9c34-6a5f98f1fbfb">
       <driver-ref>oracle.19</driver-ref>
       <synchronize>true</synchronize>
       <auto-commit>false</auto-commit>
@@ -153,7 +153,7 @@
       <jdbc-url>jdbc:oracle:thin:@192.168.16.237:1521:orcl</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="H1-演示环境 -验证「140」" uuid="a9ff3f6f-4817-4972-a551-aedfdeea6f61">
+    <data-source source="LOCAL" name="R-演示环境 -验证「140」" uuid="a9ff3f6f-4817-4972-a551-aedfdeea6f61">
       <driver-ref>mysql_aurora</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
@@ -164,7 +164,7 @@
       </jdbc-additional-properties>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="H1-压测环境「55」" uuid="892352c4-468c-4906-816d-48236722710a">
+    <data-source source="LOCAL" name="R-压测环境「55」" uuid="892352c4-468c-4906-816d-48236722710a">
       <driver-ref>mysql_aurora</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
@@ -174,7 +174,7 @@
       </jdbc-additional-properties>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="H1-演示环境「111」" uuid="109adaa4-e742-459f-9ebc-d61db0124ea3">
+    <data-source source="LOCAL" name="R-演示环境「111」" uuid="109adaa4-e742-459f-9ebc-d61db0124ea3">
       <driver-ref>mysql_aurora</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
@@ -184,7 +184,7 @@
       </jdbc-additional-properties>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="H1-产研开发「19」" uuid="ececded3-03bf-4774-ba0e-e1f9e04e5ad7">
+    <data-source source="LOCAL" name="R-产研开发「19」" uuid="ececded3-03bf-4774-ba0e-e1f9e04e5ad7">
       <driver-ref>mysql_aurora</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
@@ -195,7 +195,7 @@
       </jdbc-additional-properties>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="H1-产研测试「12」" uuid="f3636c58-53cd-4b15-a98e-4b763ef40a3f">
+    <data-source source="LOCAL" name="R-产研测试「12」" uuid="f3636c58-53cd-4b15-a98e-4b763ef40a3f">
       <driver-ref>oracle.19</driver-ref>
       <synchronize>true</synchronize>
       <auto-commit>false</auto-commit>
@@ -203,7 +203,7 @@
       <jdbc-url>jdbc:oracle:thin:@//172.31.218.12:1521/ORCLPDB1</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="H1-融合开发「41」" uuid="4edc8558-3d61-4301-b193-13da2aa93b98">
+    <data-source source="LOCAL" name="R-融合开发「41」" uuid="4edc8558-3d61-4301-b193-13da2aa93b98">
       <driver-ref>mysql_aurora</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
@@ -214,7 +214,7 @@
       </jdbc-additional-properties>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="H1-产研客验「115」" uuid="b9fd865f-f8d4-4eed-a26a-274fd992c555">
+    <data-source source="LOCAL" name="R-产研客验「115」" uuid="b9fd865f-f8d4-4eed-a26a-274fd992c555">
       <driver-ref>mysql_aurora</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
@@ -225,7 +225,7 @@
       </jdbc-additional-properties>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="H1-产研生产「60」" uuid="e96404d7-3937-4788-9dcc-63c22cff73c5">
+    <data-source source="LOCAL" name="R-产研生产「60」" uuid="e96404d7-3937-4788-9dcc-63c22cff73c5">
       <driver-ref>mysql_aurora</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
@@ -236,7 +236,7 @@
       </jdbc-additional-properties>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="H1-融合测试-验证「28」" uuid="4b5a2a66-be30-41f7-97fd-7358e5137663">
+    <data-source source="LOCAL" name="R-融合测试-验证「28」" uuid="4b5a2a66-be30-41f7-97fd-7358e5137663">
       <driver-ref>oracle.19</driver-ref>
       <synchronize>true</synchronize>
       <auto-commit>false</auto-commit>
@@ -244,7 +244,7 @@
       <jdbc-url>jdbc:oracle:thin:@//172.23.16.28:1521/HONEPDB</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="H1-融合开发-日验「28」" uuid="3553e82d-5b69-46d3-a4ae-c6bd7152e79d">
+    <data-source source="LOCAL" name="R-融合开发-日验「28」" uuid="3553e82d-5b69-46d3-a4ae-c6bd7152e79d">
       <driver-ref>oracle.19</driver-ref>
       <synchronize>true</synchronize>
       <auto-commit>false</auto-commit>
@@ -252,7 +252,7 @@
       <jdbc-url>jdbc:oracle:thin:@//172.23.16.28:1522/HONEPDB</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="H1-产研开发「206」" uuid="28513b4c-d995-49bc-b794-78feb80d6690">
+    <data-source source="LOCAL" name="R-产研开发「206」" uuid="28513b4c-d995-49bc-b794-78feb80d6690">
       <driver-ref>mysql_aurora</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
@@ -263,7 +263,7 @@
       </jdbc-additional-properties>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="H1-产研培训「31」" uuid="8af6cf4a-3933-45af-911f-a0ae7d0a852b">
+    <data-source source="LOCAL" name="R-产研培训「31」" uuid="8af6cf4a-3933-45af-911f-a0ae7d0a852b">
       <driver-ref>mysql_aurora</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
@@ -274,7 +274,7 @@
       </jdbc-additional-properties>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="H1-产研客验「23」" uuid="2ebd4f66-e47e-4f84-bcb4-60c65b557ad1">
+    <data-source source="LOCAL" name="R-产研客验「23」" uuid="2ebd4f66-e47e-4f84-bcb4-60c65b557ad1">
       <driver-ref>mysql_aurora</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
@@ -285,7 +285,7 @@
       </jdbc-additional-properties>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="H1-产研培训「136」" uuid="2bbd2a29-1328-4c9a-82b6-ddc3a4d054b6">
+    <data-source source="LOCAL" name="R-产研培训「136」" uuid="2bbd2a29-1328-4c9a-82b6-ddc3a4d054b6">
       <driver-ref>mysql_aurora</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
@@ -296,7 +296,7 @@
       </jdbc-additional-properties>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="H1-产研测试「135」" uuid="879f1dca-6327-4585-9062-59abad250a3b">
+    <data-source source="LOCAL" name="R-产研测试「135」" uuid="879f1dca-6327-4585-9062-59abad250a3b">
       <driver-ref>oracle.19</driver-ref>
       <synchronize>true</synchronize>
       <auto-commit>false</auto-commit>
@@ -304,7 +304,7 @@
       <jdbc-url>jdbc:oracle:thin:@//172.22.5.135:1521/TESTPDB</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="C-长财开发「40」" uuid="5cf6882b-e7e3-4a04-a932-a8b4d8185b3d">
+    <data-source source="LOCAL" name="S-长财开发「40」" uuid="5cf6882b-e7e3-4a04-a932-a8b4d8185b3d">
       <driver-ref>mysql_aurora</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
@@ -315,7 +315,7 @@
       </jdbc-additional-properties>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="C-旭创生产「201」" uuid="ae20e572-dc45-4c48-b655-1416e65c362d">
+    <data-source source="LOCAL" name="S-旭创生产「201」" uuid="ae20e572-dc45-4c48-b655-1416e65c362d">
       <driver-ref>mysql_aurora</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
@@ -326,14 +326,14 @@
       </jdbc-additional-properties>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="H1-Mongo-产研客验「62」" uuid="a0386f27-fab7-4acd-baf3-71d7656550fe">
+    <data-source source="LOCAL" name="R-Mongo-产研客验「62」" uuid="a0386f27-fab7-4acd-baf3-71d7656550fe">
       <driver-ref>mongo</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.dbschema.MongoJdbcDriver</jdbc-driver>
       <jdbc-url>mongodb://172.22.3.62:27017</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="C-奥迪开发「31」" uuid="d945f02f-ed8e-418e-91b5-e2c92a43ae10">
+    <data-source source="LOCAL" name="S-奥迪开发「31」" uuid="d945f02f-ed8e-418e-91b5-e2c92a43ae10">
       <driver-ref>oracle.19</driver-ref>
       <synchronize>true</synchronize>
       <auto-commit>false</auto-commit>
@@ -341,7 +341,7 @@
       <jdbc-url>jdbc:oracle:thin:@//172.31.218.31:1521/ORCLPDB1</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="C-追觅开发" uuid="b7ea9a8a-760f-441b-b9e5-d10d6ce65773">
+    <data-source source="LOCAL" name="S-追觅开发" uuid="b7ea9a8a-760f-441b-b9e5-d10d6ce65773">
       <driver-ref>mysql_aurora</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
@@ -352,7 +352,7 @@
       </jdbc-additional-properties>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="H1-产研客验「62」" uuid="7a8ca472-22f4-4ea7-b0f4-25c807e6f925">
+    <data-source source="LOCAL" name="R-产研客验「62」" uuid="7a8ca472-22f4-4ea7-b0f4-25c807e6f925">
       <driver-ref>mysql_aurora</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
@@ -396,7 +396,7 @@
       </jdbc-additional-properties>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="H1-ES-产研客验「23」" uuid="097d096b-7506-42b0-bcc3-07d3e02f5bee">
+    <data-source source="LOCAL" name="R-ES-产研客验「23」" uuid="097d096b-7506-42b0-bcc3-07d3e02f5bee">
       <driver-ref>elasticsearch</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.elasticsearch.xpack.sql.jdbc.EsDriver</jdbc-driver>
@@ -452,6 +452,24 @@
       <synchronize>true</synchronize>
       <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mariadb://172.22.5.77:3306/</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="EXTERNAL_DATA_PATH" value="$PROJECT_DIR$/bgt-01.xml" />
+        <property name="APPROVED_DRIVER" value="mysql_aurora" />
+      </jdbc-additional-properties>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="R-ES-产研开发「206」" uuid="36238153-8712-4e18-a082-59848b375f20">
+      <driver-ref>elasticsearch</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.elasticsearch.xpack.sql.jdbc.EsDriver</jdbc-driver>
+      <jdbc-url>jdbc:es://172.22.3.206:9200/</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="P-汇税通-验证环境「75」" uuid="608af4e5-ad1d-433d-ae67-8c3b8a61a2bd">
+      <driver-ref>mysql_aurora</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mariadb://172.23.40.75:3306/</jdbc-url>
       <jdbc-additional-properties>
         <property name="EXTERNAL_DATA_PATH" value="$PROJECT_DIR$/bgt-01.xml" />
         <property name="APPROVED_DRIVER" value="mysql_aurora" />
