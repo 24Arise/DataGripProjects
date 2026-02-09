@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/queries/Query_130.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/queries/Query_131.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/queries/Query_132.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/queries/Query_133.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/queries/Query_134.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/queries/Query_135.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/queries/Query_136.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/queries/Query_57.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/queries/Query_58.sql" dialect="MySQL" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/28513b4c-d995-49bc-b794-78feb80d6690/console_25.sql" dialect="MySQL" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/28513b4c-d995-49bc-b794-78feb80d6690/console_26.sql" dialect="MySQL" />
+    <file url="file://$USER_HOME$/hscs_hsdt_hsdt_basic_data_field.sql" dialect="MySQL" />
+    <file url="file://$USER_HOME$/hscs_hsdt_hsdt_basic_data_table.sql" dialect="MySQL" />
+    <file url="file://$USER_HOME$/hscs_hsdt_hsdt_bus_model_definition.sql" dialect="MySQL" />
     <file url="PROJECT" dialect="MySQL" />
   </component>
 </project>
